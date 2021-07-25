@@ -1,0 +1,12 @@
+.head {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+.text {
+    font-size: 30px;
+    text-align: center;
+    color: cornsilk;
+    padding-top: 11px;
+}
