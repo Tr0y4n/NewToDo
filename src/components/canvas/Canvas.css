@@ -7,10 +7,13 @@
     align-items: center;
 }
 
+.marg {
+    margin: 5px;
+}
 
-*{
-    margin: 0;
-    padding: 0;
+.inp {
+    width: 510px;
+    margin-right: 5px;
 }
 
 .butt {

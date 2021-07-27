@@ -1,0 +1,17 @@
+.element {
+    font-size: 20px;
+    width: 700px;
+    height: 27px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#center {
+    position: relative;
+    margin: auto;    
+}
+
+.op {
+    opacity: 0;
+}
