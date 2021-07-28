@@ -15,3 +15,17 @@
 .op {
     opacity: 0;
 }
+
+.whole {
+    display: flex;
+    flex-direction: row;
+}
+
+.mrg {
+    margin-left: 7px;
+    height: 28px;
+}
+
+.nmrg {
+    margin: 0;
+}

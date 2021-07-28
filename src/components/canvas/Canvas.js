@@ -11,7 +11,6 @@ const [listToDo, setListToDo] = useState([]);
 const [textToDo, setTextToDo] = useState('');
 
 function handleClick() {
-//let todo = prompt("Введите текст цели: ");
 setListToDo([...listToDo, <Elems text = {textToDo} />]);
 setTextToDo("")
 }
@@ -20,6 +19,7 @@ function handleChange(event) {
   let text = event.target.value.slice(0,55);
   setTextToDo(text);
 }
+
 
 return (
     <div className="Todos">
